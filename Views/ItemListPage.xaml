@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SaveUp.ViewModels"
+             x:Class="SaveUp.Views.ItemListPage"
+             Title="Items">
+
+    <ContentPage.BindingContext>
+        <vm:ItemListViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="10">
+        <ListView ItemsSource="{Binding Items}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Add Item" Command="{Binding AddItemCommand}" />
+    </StackLayout>
+</ContentPage>

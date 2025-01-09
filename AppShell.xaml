@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:SaveUp"
+       xmlns:views="clr-namespace:SaveUp.Views"
+       x:Class="SaveUp.AppShell">
+
+    <FlyoutItem Title="SaveUp">
+        <Tab Title="Main Page">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Add Item">
+            <ShellContent ContentTemplate="{DataTemplate views:AddItemPage}" />
+        </Tab>
+        <Tab Title="Item List">
+            <ShellContent ContentTemplate="{DataTemplate views:ItemListPage}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>
