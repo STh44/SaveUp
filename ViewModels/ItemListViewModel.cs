@@ -1,26 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
 using SaveUp.Models;
-using System.Collections.ObjectModel;
+using SaveUp.Utils;
+using SaveUp.Views;
 
 namespace SaveUp.ViewModels
 {
     public class ItemListViewModel : BaseViewModel
     {
-        public ObservableCollection<Item> Items { get; }
+        public ObservableCollection<SavedItem> Items { get; } = new ObservableCollection<SavedItem>();
+
+        public ICommand AddItemCommand { get; }
 
         public ItemListViewModel()
         {
-            Items = new ObservableCollection<Item>();
-            MessagingCenter.Subscribe<AddItemViewModel, Item>(this, "AddItem", (sender, item) =>
+            AddItemCommand = new Command(OnAddItem);
+            LoadItems();
+        }
+
+        private async void LoadItems()
+        {
+            var items = await JsonStorage.LoadItemsAsync();
+            foreach (var item in items)
             {
                 Items.Add(item);
-            });
+            }
+        }
+
+        private async void OnAddItem()
+        {
+            await Shell.Current.GoToAsync(nameof(AddItemPage));
         }
     }
 }
-

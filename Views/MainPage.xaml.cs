@@ -1,25 +1,23 @@
-﻿namespace SaveUp
+﻿using Microsoft.Maui.Controls;
+using SaveUp.Views;
+
+namespace SaveUp
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void OnItemListPageClicked(object sender, EventArgs e)
         {
-            count++;
+            await Navigation.PushAsync(new ItemListPage());
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private async void OnAddItemPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddItemPage());
         }
     }
-
 }

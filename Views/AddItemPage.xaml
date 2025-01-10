@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:SaveUp.ViewModels"
@@ -9,9 +8,9 @@
         <vm:AddItemViewModel />
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="10">
-        <Entry Placeholder="Name" Text="{Binding Name}" />
-        <Entry Placeholder="Description" Text="{Binding Description}" />
-        <Button Text="Save" Command="{Binding SaveCommand}" />
+    <StackLayout Padding="20">
+        <Entry Placeholder="Beschreibung" Text="{Binding Description}" />
+        <Entry Placeholder="Preis" Text="{Binding Price}" Keyboard="Numeric" />
+        <Button Text="Speichern" Command="{Binding SaveCommand}" />
     </StackLayout>
 </ContentPage>
