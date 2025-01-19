@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Projekt><Options>False|1|0|*|E:\WBStool\Publish|-1|-657931|-4144960|-9868951|-7667712|DE|1|0|False|*|1000|1|CHF|2.4.0.0</Options>
+<DBid>0</DBid>
+<Work>
+<Name>SaveUp</Name><Status>0</Status><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><PL>DS</PL><StdPlan>26</StdPlan><StdBisher>0</StdBisher><StdRest>26</StdRest><ExtKostPlan>0</ExtKostPlan>
+<Work>
+<Name>Informieren&#13;&#10;</Name>
+<Work>
+<Name>Projektziel definieren und Anforderungen verstehen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Analyse &#228;hnlicher Projekte anschauen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Tools und Technologien evaluieren&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Ressourcen und Zeitplan grob festlegen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Planen&#13;&#10;</Name>
+<Work>
+<Name>Projektabgrenzungen treffen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Systemarchitektur entwerfen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Aufgaben priorisieren&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Realisierungsstrategie entwickeln&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Entscheiden&#13;&#10;</Name>
+<Work>
+<Name>Technologien und Tools ausw&#228;hlen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Systemdesign und Mockup finalisieren&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Schnittstellen und Kommunikationsprotokolle festlegen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Realisieren&#13;&#10;</Name>
+<Work>
+<Name>Frontend-Entwicklung&#13;&#10;</Name>
+<Work>
+<Name>Navigation und Layouts erstellen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Interaktionen und UI-Komponenten implementieren&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>MVVM</Name>
+<Work>
+<Name>Models erstellen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Views erstellen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>ModelViews erstellen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+</Work>
+<Work>
+<Name>Kontrollieren&#13;&#10;</Name>
+<Work>
+<Name>Applikations Testing</Name>
+<Work>
+<Name>Fehler finden und beheben</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Fehlerbehebung und Optimierung</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Funktionstests und Abnahmekriterien &#252;berpr&#252;fen&#13;&#10;&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Feedback einholen und Anpassungen vornehmen&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Finaler Review&#13;&#10;</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Auswerten</Name>
+<Work>
+<Name>Dokumentation erstellen&#13;&#10;</Name>
+<Work>
+<Name>Projektdokumentation (IPERKA-Bericht)</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Code-Dokumentation</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Pr&#228;sentation vorbereiten</Name>
+<Work>
+<Name>Pr&#228;sentationsmaterialien erstellen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+<Work>
+<Name>Live-Demo testen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+<Work>
+<Name>Projektabnahme</Name>
+<Work>
+<Name>Abschlussbericht erstellen</Name><Start>2025-01-20T00:00:00</Start><Ende>2025-01-19T00:00:00</Ende><StdPlan>1</StdPlan><StdBisher>0</StdBisher><StdRest>1</StdRest><ExtKostPlan>0</ExtKostPlan>
+</Work>
+</Work>
+</Work>
+</Work>
+</Projekt>
